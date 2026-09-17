@@ -17,6 +17,8 @@ review process, including:
 
 ------------------------------------------------------------------------
 
+![overview](figure/literature_overview.png)
+
 ## Repository Structure
 
 ``` text
