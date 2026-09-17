@@ -1,4 +1,4 @@
-﻿title,doi,year,url,bibtex,language,type
+title,doi,year,url,bibtex,language,type
 What makes a code review useful to OpenDev developers? An empirical investigation,10.1007/s10664-023-10411-x,2023,https://link.springer.com/article/10.1007/s10664-023-10411-x,"@Article{Turzo2023,
 author=""Turzo, Asif Kamal
 and Bosu, Amiangshu"",
@@ -36940,7 +36940,7 @@ Feedback in context: Using a code review tool for program grading,https://dl.acm
   pages={92--97},
   year={2022}
 }",inproceedings,Feedback in context: Using a code review tool for program grading,2022,en
-"The"" shut the f** k up"" phenomenon: Characterizing incivility in open source code review discussions",https://dl.acm.org/doi/abs/10.1145/3479497,"@article{ferreira2021shut,
+The" shut the f** k up" phenomenon: Characterizing incivility in open source code review discussions,https://dl.acm.org/doi/abs/10.1145/3479497,"@article{ferreira2021shut,
   title={The"" shut the f** k up"" phenomenon: Characterizing incivility in open source code review discussions},
   author={Ferreira, Isabella and Cheng, Jinghui and Adams, Bram},
   journal={Proceedings of the ACM on Human-Computer Interaction},
@@ -36949,7 +36949,7 @@ Feedback in context: Using a code review tool for program grading,https://dl.acm
   pages={1--35},
   year={2021},
   publisher={ACM New York, NY, USA}
-}",article,"The"" shut the f** k up"" phenomenon: Characterizing incivility in open source code review discussions",2021,en
+}",article,The" shut the f** k up" phenomenon: Characterizing incivility in open source code review discussions,2021,en
 Evaluating the Impact of Developer Experience on Code Quality: A Systematic Literature Review,https://sol.sbc.org.br/index.php/cibse/article/view/28446,"@inproceedings{lopes2024evaluating,
   title={Evaluating the Impact of Developer Experience on Code Quality: A Systematic Literature Review},
   author={Lopes, Jefferson GM and Oliveira, Johnatan and Figueiredo, Eduardo},
@@ -44759,12 +44759,12 @@ Towards a secure scrum process for agile web application development,https://dl.
   pages={1--8},
   year={2017}
 }",inproceedings,Towards a secure scrum process for agile web application development,2017,en
-"How secure equipments in your ICS network need to be? An approach to select the"" Just secure enough"".",https://hal.science/hal-01318167/,"@inproceedings{michard2016secure,
+How secure equipments in your ICS network need to be? An approach to select the" Just secure enough".,https://hal.science/hal-01318167/,"@inproceedings{michard2016secure,
   title={How secure equipments in your ICS network need to be? An approach to select the"" Just secure enough"".},
   author={Michard, Isabelle},
   booktitle={Fast Abstract in the 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks},
   year={2016}
-}",inproceedings,"How secure equipments in your ICS network need to be? An approach to select the"" Just secure enough"".",2016,en
+}",inproceedings,How secure equipments in your ICS network need to be? An approach to select the" Just secure enough".,2016,en
 [PDF] A new model for secure software development.,https://www.researchgate.net/profile/Hossein-Shirazi-2/publication/317232226_A_New_Model_for_Secure_Software_Development/links/592d27cf458515e3d4775c0b/A-New-Model-for-Secure-Software-Development.pdf,"@article{shirazi2009new,
   title={A new model for secure software development.},
   author={Shirazi, HM},
@@ -47578,14 +47578,14 @@ Nurturing Code Quality: Leveraging Static Analysis and Large Language Models for
   year={2025},
   publisher={ACM New York, NY}
 }",article,Nurturing Code Quality: Leveraging Static Analysis and Large Language Models for Software Quality in Education,2025,en
-"Is there a"" golden"" rule for code reviewer recommendation?:âan experimental evaluation",https://ieeexplore.ieee.org/abstract/document/9282767/,"@inproceedings{hu2020there,
+Is there a" golden" rule for code reviewer recommendation?:âan experimental evaluation,https://ieeexplore.ieee.org/abstract/document/9282767/,"@inproceedings{hu2020there,
   title={Is there a"" golden"" rule for code reviewer recommendation?:âan experimental evaluation},
   author={Hu, Yuanzhe and Wang, Junjie and Hou, Jie and Li, Shoubin and Wang, Qing},
   booktitle={2020 IEEE 20th International Conference on Software Quality, Reliability and Security (QRS)},
   pages={497--508},
   year={2020},
   organization={IEEE}
-}",inproceedings,"Is there a"" golden"" rule for code reviewer recommendation?:âan experimental evaluation",2020,en
+}",inproceedings,Is there a" golden" rule for code reviewer recommendation?:âan experimental evaluation,2020,en
 [PDF] Exploring Factors Influencing System Administrators' Security Vulnerability Remediation Decisions,https://carleton.scholaris.ca/bitstreams/543b71c9-30ec-4cab-9d60-f93960dc8610/download,"@phdthesis{bondar2023exploring,
   title={Exploring Factors Influencing System Administrators' Security Vulnerability Remediation Decisions},
   author={Bondar, Tamara},
@@ -51021,12 +51021,12 @@ From Strategy to Structure: Guiding Code Quality With GPST in Game-Based Program
   pages={11--13},
   year={2014}
 }",inproceedings,Kashvi: A framework for software process intelligence,2014,en
-"[PDF] A Framework for Exploiting Emergent Behaviour to Capture"" best Practice"" Within a Programming Domain",https://scholar.archive.org/work/v4ijcoqmkfdptcqnx5sditmeza/access/wayback/https://radar.brookes.ac.uk/radar/file/147a2d7d-025a-4b51-995f-66e18a1d8903/1/mercer2004framework_OK.pdf,"@phdthesis{mercer2004framework,
+[PDF] A Framework for Exploiting Emergent Behaviour to Capture" best Practice" Within a Programming Domain,https://scholar.archive.org/work/v4ijcoqmkfdptcqnx5sditmeza/access/wayback/https://radar.brookes.ac.uk/radar/file/147a2d7d-025a-4b51-995f-66e18a1d8903/1/mercer2004framework_OK.pdf,"@phdthesis{mercer2004framework,
   title={A Framework for Exploiting Emergent Behaviour to Capture"" best Practice"" Within a Programming Domain},
   author={Mercer, Sarah Jane},
   year={2004},
   school={Oxford Brookes University}
-}",phdthesis,"A Framework for Exploiting Emergent Behaviour to Capture"" best Practice"" Within a Programming Domain",2004,en
+}",phdthesis,A Framework for Exploiting Emergent Behaviour to Capture" best Practice" Within a Programming Domain,2004,en
 Toward reduction in false positives just-in-time software defect prediction using deep reinforcement learning,https://ieeexplore.ieee.org/abstract/document/10485281/,"@article{ismail2024toward,
   title={Toward reduction in false positives just-in-time software defect prediction using deep reinforcement learning},
   author={Ismail, Ahmad Muhaimin and Ab Hamid, Siti Hafizah and Sani, Asmiza Abdul and Daud, Nur Nasuha Mohd},
@@ -53959,7 +53959,7 @@ The Meaning and Process of Engagement in Outdoor Adventure from an Occupational 
   year={2022},
   school={Kent State University}
 }",mastersthesis,"Garment Therapy: Understanding the Therapeutic Connections Between Garments, Anxiety and Depression",2022,en
-"[BOOK] "" We See You"": Policy Supports and Barriers for Part-time Undergraduate Students",https://search.proquest.com/openview/8cdf4a8f607c8aaa534c822f1c4bf20c/1?pq-origsite=gscholar&cbl=18750&diss=y,"@book{draughon2020we,
+[BOOK] " We See You": Policy Supports and Barriers for Part-time Undergraduate Students,https://search.proquest.com/openview/8cdf4a8f607c8aaa534c822f1c4bf20c/1?pq-origsite=gscholar&cbl=18750&diss=y,"@book{draughon2020we,
   title={"" We See You"": Policy Supports and Barriers for Part-time Undergraduate Students},
   author={Draughon, Ginger Burks},
   year={2020},
@@ -55262,13 +55262,13 @@ An analysis of several software defect models,https://ieeexplore.ieee.org/abstra
   pages={20--29},
   year={2001}
 }",inproceedings,Groupware support for software requirements inspection,2001,en
-"Recalling the"" imprecision"" of cross-project defect prediction",https://dl.acm.org/doi/abs/10.1145/2393596.2393669,"@inproceedings{rahman2012recalling,
+Recalling the" imprecision" of cross-project defect prediction,https://dl.acm.org/doi/abs/10.1145/2393596.2393669,"@inproceedings{rahman2012recalling,
   title={Recalling the"" imprecision"" of cross-project defect prediction},
   author={Rahman, Foyzur and Posnett, Daryl and Devanbu, Premkumar},
   booktitle={Proceedings of the ACM SIGSOFT 20th international symposium on the foundations of software engineering},
   pages={1--11},
   year={2012}
-}",inproceedings,"Recalling the"" imprecision"" of cross-project defect prediction",2012,en
+}",inproceedings,Recalling the" imprecision" of cross-project defect prediction,2012,en
 [PDF] Impact of software review and inspection,https://in2p3.hal.science/in2p3-00009850/document,"@inproceedings{aleksandrov2000impact,
   title={Impact of software review and inspection},
   author={Aleksandrov, I and Amaral, V and Amorim, A and Badescu, E and Burckhart, D and Caprini, M and Cohen, L and Duval, PY and Hart, R and Jones, R and others},
@@ -62618,13 +62618,13 @@ AIware'24,https://dl.acm.org/doi/abs/10.1145/3664646,"@article{sigsoft2024aiware
   author={ELLIOT, NKEM KIZZY},
   year={2021}
 }",article,POSTGRADUATE SCHOOL,2021,en
-"[BOOK] "" Looks Good to Me"": Constructive Code Reviews",https://books.google.com/books?hl=en&lr=&id=Eds2EQAAQBAJ&oi=fnd&pg=PA1&dq=%22MODERN+CODE+REVIEW%22+AND+%22SECURITY%22&ots=g4CjEldXSE&sig=8LZrN0M_VvNKnKLyLb5pvJsPE5E,"@book{braganza2025looks,
+[BOOK] " Looks Good to Me": Constructive Code Reviews,https://books.google.com/books?hl=en&lr=&id=Eds2EQAAQBAJ&oi=fnd&pg=PA1&dq=%22MODERN+CODE+REVIEW%22+AND+%22SECURITY%22&ots=g4CjEldXSE&sig=8LZrN0M_VvNKnKLyLb5pvJsPE5E,"@book{braganza2025looks,
   title={"" Looks Good to Me"": Constructive Code Reviews},
   author={Braganza, Adrienne},
   year={2025},
   publisher={Simon and Schuster}
 }",book,""" Looks Good to Me"": Constructive Code Reviews",2025,en
-"[PDF] "" What Should I Change in My Patch?",https://capuana.ifi.uzh.ch/publications/PDFs/17136_Bachelorarbeit.pdf,"@article{zaugg2018should,
+[PDF] " What Should I Change in My Patch?,https://capuana.ifi.uzh.ch/publications/PDFs/17136_Bachelorarbeit.pdf,"@article{zaugg2018should,
   title={"" What Should I Change in My Patch?},
   author={Zaugg, Nik},
   year={2018}

@@ -1,4 +1,4 @@
-﻿paper_id,title,search_direction
+paper_id,title,search_direction
 p01,Serious Game for Industrial Cybersecurity: Experiential Learning Through Code Review,
 p02,Identifying Personal Data Processing for Code Review,
 p03,SeRe: A Security-Related Code Review Dataset Aligned with Real-World Review Activities,
@@ -22,8 +22,8 @@ p20,Exploring Code Vulnerabilities through Code Reviews: An Empirical Study on O
 p21,Code reviewing as methodology for online security studies with developers-a case study with freelancers on password storage,
 p22,A {Mixed-Methods} study of security practices of smart contract developers,
 p23,Less is More: Supporting Developers in Vulnerability Detection during Code Review.,
-p24,iCodeReviewer: Improving Secure Code Review with Mixture of Prompts,Backward (candidate)
-p25,SecureReviewer: Enhancing Large Language Models for Secure Code Review through Secure-aware Fine-tuning,Backward (candidate)
+p24,iCodeReviewer: Improving Secure Code Review with Mixture of Prompts,Backward 
+p25,SecureReviewer: Enhancing Large Language Models for Secure Code Review through Secure-aware Fine-tuning,Backward 
 p26,Natural Language Insights from Code Reviews that Missed a Vulnerability: A Large Scale Study of Chromium,
 p27,Identifying the Characteristics of Vulnerable Code Changes: An Empirical Study,
 p28,A Security Perspective on Code Review: The Case of Chromium,
@@ -32,6 +32,6 @@ p30,An empirical study on the effectiveness of security code review,
 p31,An Empirical Study of Static Analysis Tools for Secure Code Review,
 p32,Security Defect Detection via Code Review: A Study of the OpenStack and Qt Communities,
 p33,Toward effective secure code reviews: an empirical study of security-related coding weaknesses,
-p34,Software Security during Modern Code Review: The Developer’s Perspective,Backward (candidate)
+p34,Software Security during Modern Code Review: The Developer’s Perspective,Backward 
 p35,"An Insight into Security Code Review with LLMs: Capabilities, Obstacles, and Influential Factors",
 p36,A large-scale study of modern code review and security in open source projects,

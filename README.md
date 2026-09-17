@@ -1,77 +1,204 @@
-# Secure Code Review Survey
+# Secure Code Review Survey Reproduction Package
 
-Data and collection code for the secure code review survey.
+This repository contains the reproduction package for the systematic
+survey:
 
-## Contents
+**Secure Code Review: A Systematic Survey of Technical Tasks,
+Mechanisms, and Evaluation**
 
-- `collect_papers.py`: unified collection and import script.
-- `requirements.txt`: Python dependencies.
-- `data/c0.csv`–`data/c4.csv`: screening-stage records.
-- `data/final_included_36.csv`: final included studies.
+The artifact provides the materials used throughout the systematic
+review process, including:
 
-## Setup
+-   automated literature collection scripts;
+-   bibliographic records collected from multiple sources;
+-   intermediate screening results;
+-   the final set of included studies;
+-   quality guideline search (QGS) materials.
 
-Requires Python 3.9 or later.
+------------------------------------------------------------------------
 
-```bash
-python -m pip install -r requirements.txt
+## Repository Structure
+
+``` text
+reproduction_package/
+│
+├── data/
+│   ├── collect_papers.py
+│   ├── ACM/
+│   ├── DBLP/
+│   ├── Elsevier scopus/
+│   ├── google/
+│   ├── ieee/
+│   ├── springer/
+│   ├── arxiv/
+│   ├── F0.csv
+│   ├── F1.csv
+│   ├── F2.csv
+│   ├── F3.csv
+│   ├── F4.csv
+│   ├── F5.csv
+│   └── final_included_36.csv
+│
+├── QGS_Five_Papers/
+│   ├── five_papers.xlsx
+│   └── 12 venues paper/
+│
+├── requirements.txt
+├── LICENSE
+└── README.md
 ```
 
-## Platforms
+------------------------------------------------------------------------
 
-| Platform | Identifier | Collection mode |
-|---|---|---|
-| Google Scholar | `google` | Import |
-| IEEE Xplore | `ieee` | Metadata API |
-| Elsevier Scopus | `scopus` | Search API |
-| ACM Digital Library | `acm` | Crossref metadata API |
-| DBLP | `dblp` | Search API |
-| arXiv | `arxiv` | Public Atom API |
-| SpringerLink | `springer` | Springer Nature Metadata API |
+# 1. Literature Collection
 
-Configure the fields in `PLATFORMS` at the top of `collect_papers.py`:
+The `data/collect_papers.py` script provides a unified framework for
+collecting bibliographic records from multiple academic sources.
 
-- **IEEE Xplore:** `api_url` and `api_key`.
-- **Scopus:** `api_url`, `api_key`, and optional `inst_token`.
-- **ACM Digital Library:** Crossref `api_url`; `member_id` is set to ACM.
-- **DBLP:** `api_url` and optional `bibtex_url` using `{key}`.
-- **arXiv:** `api_url`.
-- **SpringerLink:** `api_url`, `api_key`, and optional `bibtex_url` using `{doi}`.
-- **Google Scholar:** exported result files.
+The script supports:
 
-For DOI-based BibTeX retrieval, set `DOI_BIBTEX_URL` with a `{doi}` placeholder.
+-   querying multiple literature databases;
+-   importing exported search results;
+-   metadata normalization;
+-   DOI extraction and normalization;
+-   duplicate removal;
+-   BibTeX retrieval.
 
-## Usage
+The collected raw records are organized according to different sources:
 
-### Online collection
+  Directory            Source
+  -------------------- ------------------------
+  `ACM/`               ACM-related records
+  `DBLP/`              DBLP records
+  `Elsevier scopus/`   Scopus records
+  `google/`            Google Scholar records
+  `ieee/`              IEEE Xplore records
+  `springer/`          SpringerLink records
+  `arxiv/`             arXiv records
 
-```bash
+------------------------------------------------------------------------
+
+# 2. Environment Setup
+
+The reproduction package requires:
+
+-   Python 3.9 or later
+
+Install dependencies:
+
+``` bash
+pip install -r requirements.txt
+```
+
+------------------------------------------------------------------------
+
+# 3. Literature Screening
+
+The screening process contains multiple stages.
+
+Intermediate screening results are provided as:
+
+``` text
+data/
+├── F0.csv
+├── F1.csv
+├── F2.csv
+├── F3.csv
+├── F4.csv
+└── F5.csv
+```
+
+These files record the intermediate filtering process of the systematic
+review.
+
+The final included studies are provided in:
+
+``` text
+data/final_included_36.csv
+```
+
+which contains the 36 studies included in the final survey.
+
+------------------------------------------------------------------------
+
+# 4. Quality Guideline Search (QGS)
+
+To evaluate the completeness of the search strategy, additional quality
+guideline searches were conducted.
+
+The QGS materials are provided in:
+
+``` text
+QGS_Five_Papers/
+
+├── five_papers.xlsx
+└── 12 venues paper/
+```
+
+The `12 venues paper` directory contains papers collected from
+representative software engineering and security venues, including:
+
+-   ICSE
+-   FSE
+-   ASE
+-   ISSTA
+-   TSE
+-   TOSEM
+-   TDSC
+-   TIFS
+-   S&P
+-   NDSS
+-   USS
+
+These materials are used to verify whether the search strategy can
+identify representative secure code review studies.
+
+------------------------------------------------------------------------
+
+# 5. Configuration
+
+Before running online collection, configure the required API information
+in:
+
+``` text
+data/collect_papers.py
+```
+
+The script supports configuration for different data sources, including:
+
+-   IEEE Xplore API;
+-   Scopus API;
+-   Springer metadata API;
+-   DBLP endpoint;
+-   arXiv API;
+-   DOI-based BibTeX retrieval.
+
+Google Scholar records can be imported from exported files.
+
+------------------------------------------------------------------------
+
+# 6. Usage
+
+Example: collect records from IEEE Xplore:
+
+``` bash
 python collect_papers.py --platform ieee --output results/ieee
-python collect_papers.py --platform arxiv --output results/arxiv
-python collect_papers.py --platform acm --output results/acm
 ```
 
-Use `--fetch-bibtex` to retrieve BibTeX entries.
+Example: import Google Scholar records:
 
-### Import Google Scholar results
-
-```bash
-python collect_papers.py --platform google --input imports/google/papers.xlsx --output results/google
+``` bash
+python collect_papers.py \
+--platform google \
+--input papers.xlsx \
+--output results/google
 ```
 
-Supported formats: CSV, XLSX and JSON. Multiple files can be listed after `--input`. Use `--encoding` to specify the CSV encoding and `--columns title,url,year` to supply column names.
+The generated outputs include raw records and processed bibliographic
+records.
 
-### Collect all platforms
+------------------------------------------------------------------------
 
-Configure the six online platforms and supply the Google Scholar export:
+# 7. License
 
-```bash
-python collect_papers.py --platform all --input imports/google/papers.xlsx --output results
-```
-
-## Output
-
-- `<platform>_raw.csv`: collected records.
-- `<platform>_papers.csv`: records deduplicated by DOI or URL.
-
-Output files use UTF-8 encoding with BOM.
+This project is released under the LICENSE included in this repository.
